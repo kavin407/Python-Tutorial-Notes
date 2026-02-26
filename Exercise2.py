@@ -1,5 +1,4 @@
-income=int(input("income:"))
-if(income>7000):
-    print("Not Eligible for Sholrship")
-else:
-    print("Sholrship is Avaliable")
+a = int(input())
+b = int(input())
+for i in range(a+1,b):
+    print(i)
